@@ -11,3 +11,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+```Code to Flatten Smart Contract
+npx hardhat flatten contracts/Roles.sol > Flattened-Roles.sol
+
